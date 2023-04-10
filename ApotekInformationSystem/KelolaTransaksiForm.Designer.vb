@@ -22,6 +22,7 @@ Partial Class KelolaTransaksiForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -52,6 +53,7 @@ Partial Class KelolaTransaksiForm
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -105,9 +107,8 @@ Partial Class KelolaTransaksiForm
         Me.Label6.AutoSize = True
         Me.Label6.Location = New System.Drawing.Point(522, 9)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(110, 13)
+        Me.Label6.Size = New System.Drawing.Size(0, 13)
         Me.Label6.TabIndex = 5
-        Me.Label6.Text = "04/06/2022 19:49:39"
         '
         'Label7
         '
@@ -305,11 +306,16 @@ Partial Class KelolaTransaksiForm
         Me.DateTimePicker2.Size = New System.Drawing.Size(200, 20)
         Me.DateTimePicker2.TabIndex = 30
         '
+        'Timer1
+        '
+        Me.Timer1.Enabled = True
+        Me.Timer1.Interval = 1000
+        '
         'KelolaTransaksiForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(677, 450)
+        Me.ClientSize = New System.Drawing.Size(677, 474)
         Me.Controls.Add(Me.DateTimePicker2)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.ComboBox1)
@@ -378,4 +384,5 @@ Partial Class KelolaTransaksiForm
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents DateTimePicker1 As DateTimePicker
     Friend WithEvents DateTimePicker2 As DateTimePicker
+    Friend WithEvents Timer1 As Timer
 End Class

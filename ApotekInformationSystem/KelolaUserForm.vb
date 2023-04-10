@@ -35,9 +35,6 @@ Public Class KelolaUserForm
         End If
     End Sub
 
-    Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
-
-    End Sub
     Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
         'Tampilkan data yang diketik di kolom pencarian (search)
         Call Koneksi()

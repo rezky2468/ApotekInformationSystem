@@ -38,6 +38,8 @@ Partial Class KelolaObatForm
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.Label8 = New System.Windows.Forms.Label()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -174,11 +176,29 @@ Partial Class KelolaObatForm
         Me.DataGridView1.Size = New System.Drawing.Size(562, 224)
         Me.DataGridView1.TabIndex = 15
         '
+        'TextBox5
+        '
+        Me.TextBox5.Location = New System.Drawing.Point(352, 187)
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(271, 20)
+        Me.TextBox5.TabIndex = 16
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(12, 9)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(0, 13)
+        Me.Label8.TabIndex = 17
+        Me.Label8.Visible = False
+        '
         'KelolaObatForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(642, 450)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.TextBox5)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
@@ -219,4 +239,6 @@ Partial Class KelolaObatForm
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents Label8 As Label
 End Class
