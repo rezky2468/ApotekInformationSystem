@@ -33,15 +33,15 @@ Partial Class AdminNavigationForm
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.ToolStripLabel1 = New System.Windows.Forms.ToolStripLabel()
+        Me.ToolStripLabel2 = New System.Windows.Forms.ToolStripLabel()
+        Me.ToolStripLabel3 = New System.Windows.Forms.ToolStripLabel()
+        Me.ToolStripLabel4 = New System.Windows.Forms.ToolStripLabel()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.ToolStripLabel2 = New System.Windows.Forms.ToolStripLabel()
-        Me.ToolStripLabel3 = New System.Windows.Forms.ToolStripLabel()
-        Me.ToolStripLabel4 = New System.Windows.Forms.ToolStripLabel()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.ToolStrip1.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -144,6 +144,24 @@ Partial Class AdminNavigationForm
         Me.ToolStripLabel1.Size = New System.Drawing.Size(39, 22)
         Me.ToolStripLabel1.Text = "Status"
         '
+        'ToolStripLabel2
+        '
+        Me.ToolStripLabel2.Name = "ToolStripLabel2"
+        Me.ToolStripLabel2.Size = New System.Drawing.Size(13, 22)
+        Me.ToolStripLabel2.Text = "1"
+        '
+        'ToolStripLabel3
+        '
+        Me.ToolStripLabel3.Name = "ToolStripLabel3"
+        Me.ToolStripLabel3.Size = New System.Drawing.Size(18, 22)
+        Me.ToolStripLabel3.Text = " - "
+        '
+        'ToolStripLabel4
+        '
+        Me.ToolStripLabel4.Name = "ToolStripLabel4"
+        Me.ToolStripLabel4.Size = New System.Drawing.Size(88, 22)
+        Me.ToolStripLabel4.Text = "ToolStripLabel4"
+        '
         'Panel1
         '
         Me.Panel1.Controls.Add(Me.Panel4)
@@ -208,24 +226,6 @@ Partial Class AdminNavigationForm
         Me.Panel5.Size = New System.Drawing.Size(766, 493)
         Me.Panel5.TabIndex = 9
         '
-        'ToolStripLabel2
-        '
-        Me.ToolStripLabel2.Name = "ToolStripLabel2"
-        Me.ToolStripLabel2.Size = New System.Drawing.Size(13, 22)
-        Me.ToolStripLabel2.Text = "1"
-        '
-        'ToolStripLabel3
-        '
-        Me.ToolStripLabel3.Name = "ToolStripLabel3"
-        Me.ToolStripLabel3.Size = New System.Drawing.Size(18, 22)
-        Me.ToolStripLabel3.Text = " - "
-        '
-        'ToolStripLabel4
-        '
-        Me.ToolStripLabel4.Name = "ToolStripLabel4"
-        Me.ToolStripLabel4.Size = New System.Drawing.Size(88, 22)
-        Me.ToolStripLabel4.Text = "ToolStripLabel4"
-        '
         'AdminNavigationForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -235,6 +235,7 @@ Partial Class AdminNavigationForm
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.ToolStrip1)
         Me.Name = "AdminNavigationForm"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "AdminNavigationForm"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ToolStrip1.ResumeLayout(False)

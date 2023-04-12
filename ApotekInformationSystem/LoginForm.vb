@@ -2,7 +2,7 @@
 Public Class LoginForm
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-        TextBox1.Text = "admin123"
+        TextBox1.Text = "kasir123"
         TextBox2.Text = "123"
 
     End Sub
